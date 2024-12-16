@@ -1,0 +1,22 @@
+.board-grid {
+  display: grid;
+  grid-template-columns: 80px 80px 80px 80px 80px 80px 80px 80px;
+  width: 640px;
+  border: 1px solid black;
+}
+.square {
+  display: flex;
+  height: 80px;
+  justify-content: center;
+  align-items: center;
+}
+.dark {
+  background-color: gray;
+}
+.light {
+  background-color: white;
+}
+.piece {
+  height: 80px;
+  width: 80px;
+}
